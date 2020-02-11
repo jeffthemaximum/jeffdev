@@ -9,3 +9,15 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
+
+Rails.application.config.assets.precompile += %w( landing/bootstrap.min.css )
+Rails.application.config.assets.precompile += %w( landing/vendor.css )
+Rails.application.config.assets.precompile += %w( landing/style.css )
+Rails.application.config.assets.precompile += %w( landing/hoc_custom.css )
+
+Rails.application.config.assets.precompile += %w( landing/vendor/html5shiv.min.js )
+Rails.application.config.assets.precompile += %w( landing/vendor/jquery-1.11.3.min.js )
+Rails.application.config.assets.precompile += %w( landing/vendor/bootstrap.min.js )
+Rails.application.config.assets.precompile += %w( landing/vendor/plugin.js )
+Rails.application.config.assets.precompile += %w( landing/variable.js )
+Rails.application.config.assets.precompile += %w( landing/main.js )
